@@ -139,3 +139,4 @@
 /Users/danielklugah/Desktop/JWTAUTH/API/obj/Debug/net8.0/API.pdb
 /Users/danielklugah/Desktop/JWTAUTH/API/obj/Debug/net8.0/API.genruntimeconfig.cache
 /Users/danielklugah/Desktop/JWTAUTH/API/obj/Debug/net8.0/ref/API.dll
+/Users/danielklugah/Desktop/JWTAUTH/API/obj/Debug/net8.0/API.sourcelink.json
