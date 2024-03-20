@@ -36,7 +36,7 @@ namespace API.Controllers
 
         if(roleResult.Succeeded){
             return Ok(new {
-                message = "Role Created successfully"y
+                message = "Role Created successfully"
             });
         }
 
