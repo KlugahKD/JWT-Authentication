@@ -128,6 +128,11 @@ namespace API.Controllers
                 new (JwtRegisteredClaimNames.Iss, _configuration.GetSection("JWTSetting").GetSection("ValidIssuer").Value!)
              ];
 
+            if (!string.IsNullOrEmpty(user.PhoneNumber))
+             {
+                 claims.Add(new Claim(ClaimTypes.MobilePhone, user.PhoneNumber));
+             }
+
              foreach(var role in roles)
             {
              claims.Add(new Claim(ClaimTypes.Role,role));

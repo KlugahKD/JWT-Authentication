@@ -12,6 +12,8 @@ namespace API.Dtos
 
         public string Password { get; set; } = string.Empty;
 
+        public string PhoneNumber { get; set; } = string.Empty;
+
         public required List<string> Roles {get; set;}
 
     }
